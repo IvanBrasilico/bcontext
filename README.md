@@ -61,7 +61,7 @@ def notebook_view(message):
 
 ```
 
-The complete example is packaged within this repository
+The complete example is packaged within this repository. The extension could manage user context, any information desired, and also forward between views. The tests and an example application(with master-detail/composite behavior) demonstrates the usage.
 
 * [Usage](#usage)
   * [Installing](#installing)
@@ -90,6 +90,7 @@ patterns = [
 # On views
 from app import ch
 ```
+REFER to examples and tests for more information
 
 ### Installing
 ```bash
