@@ -1,4 +1,4 @@
-# A Bottery Extension
+# A Bottery Extension - Context and flow management for your bots views
 :battery: Bottery - a framework for building bots
 
 [![Build Status](https://travis-ci.org/IvanBrasilico/bcontext.svg?branch=master)](https://travis-ci.org/IvanBrasilico/bcontext)
