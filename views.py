@@ -52,7 +52,7 @@ Notebook.notes = relationship(
 
 
 def notebook_view(message):
-    '''No rules mching route, all routes "hard-coded"
+    '''No rules matching route, all routes "hard-coded"
     It could be made an object like RESTWaiter, to process "orders"
     and forward to a sql_alchemy object'''
     words = shlex.split(message.text)

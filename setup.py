@@ -13,7 +13,7 @@ with open('botteryext/bcontext/__init__.py', encoding='utf8') as f:
 '''
 setup(
     name='bcontext',
-    description='A CLI talker',
+    description='Context for Bottery',
     # version=version,
     url='https://github.com/IvanBrasilico',
     license='MIT',
@@ -26,7 +26,7 @@ setup(
     tests_require=['pytest'],
     test_suite="tests",
     package_data={
-        'bcontext': ['/locale/*'],
+        'botteryext/bcontext': ['/locale/*'],
     },
     extras_require={
         'dev': [
